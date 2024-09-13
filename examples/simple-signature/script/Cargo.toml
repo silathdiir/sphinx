@@ -1,0 +1,13 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "simple-signature-script"
+edition = "2021"
+
+[dependencies]
+sphinx-sdk = { path = "../../../../sphinx/sdk" }
+sphinx-core = { path = "../../../../sphinx/core" }
+sphinx-prover = { path = "../../../../sphinx/prover" }
+
+[build-dependencies]
+sphinx-helper = { path = "../../../../sphinx/helper" }
