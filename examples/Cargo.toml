@@ -15,5 +15,6 @@ members = [
   "ssz-withdrawals/script",
   "tendermint/script",
   "patch-testing/script",
+  "simple-signature/script",
 ]
 resolver = "2"
