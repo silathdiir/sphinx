@@ -1,0 +1,17 @@
+[workspace]
+[package]
+name = "simple-signature"
+version = "1.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+sphinx-zkvm = { path = "../../../zkvm/entrypoint" }
+num = { version = "0.4.1", default-features = false }
+serde_yaml = "0.9.34"
+# bn = { git = "https://github.com/sp1-patches/bn", package = "substrate-bn", branch = "bhargav/bn-optimizations" }
+bn = { git = "https://github.com/paritytech/bn", package = "substrate-bn" }
+rand = "0.8.5"
+# bn254_hash2curve = { git = "https://github.com/Lagrange-Labs/bn254-hash-to-curve", rev = "c01a104", features = [
+#   "gnark_crypto_compatible",
+# ] }
